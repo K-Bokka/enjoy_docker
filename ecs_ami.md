@@ -45,7 +45,7 @@ ubuntu                             12.04               f0d07a756afd        7 wee
 </pre>
 		1. Dockerの実行
 <pre>
-$ docker run -p 80:80 my-dockerhub-username/amazon-ecs-sample # hostとcontainerの80番を繋げて起動
+$ docker run -p 80:80 YOUR_DOCKER_ID/amazon-ecs-sample # hostとcontainerの80番を繋げて起動
 </pre>
 		1. Public DNSにブラウザからアクセスして、"Simple PHP App"が表示されたらOK。停止はctrl+c。
 		1. Docker Hubに登録
